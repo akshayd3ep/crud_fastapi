@@ -7,7 +7,6 @@ from config.constant import CLOCK_IN_COLLECTION
 from config.database import insert_one, is_valid_object_id, find_one, find_all,\
                             aggregate, delete, update
 from bson import ObjectId
-# Initialize router for item routes
 router = APIRouter()
 
 
